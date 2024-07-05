@@ -10,4 +10,5 @@ path = "src/echo.rs"
 [[bin]]
 name = "cat"
 path = "src/cat.rs"
+
 [dependencies]

@@ -1,1 +1,13 @@
+[package]
+name = "coreutils"
+version = "0.1.0"
+edition = "2021"
 
+[[bin]]
+name = "echo"
+path = "src/echo.rs"
+
+[[bin]]
+name = "cat"
+path = "src/cat.rs"
+[dependencies]
